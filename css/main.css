@@ -55,6 +55,10 @@
   background-color: var(--theme-pink);
 }
 
+.error {
+  border-color: var(--theme-pink);
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 3px;

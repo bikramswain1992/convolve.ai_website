@@ -118,8 +118,9 @@
                 <div class="col-md-12 d-flex align-items-center justify-content-center">
                     <h1>Who are we?</h1>
                 </div>
-                <div class="col-md-6 section-description d-flex align-items-center justify-content-center">
-                    <p>We are a team of young entrepreneurs who are thriving to solve the real-life problems of our customers using our in-depth experience in machine learning, AI & analytics.</p>
+                <div class="col-md-6 section-description d-flex flex-wrap align-items-center justify-content-center">
+                    <p><b>Convolve.ai</b> is a team of young entrepreneurs who are thriving to solve the real-life problems of its customers using its efficient team and the in-depth experience they carry. This has been possible due to the immersive experience that the team has acquired, working on the field alongside its clients.</p>
+                    <p>Working hands-on we have realized companies’ trade-off between sustainability coming from its core business and expenditure on growth with data but the inclusion of these two legs is the need of every leader in the modern day. This new paradigm of growth and sustainability with data as a tool is the motivation to drive innovation and this data-centric decision-making imprinted in our values enables us to help our customers serve better.</p>
                 </div>
                 <div class="col-md-6 section-image">
                     <img src="img/entrepreneur.svg" alt="">
@@ -133,8 +134,8 @@
                     <img src="img/growth.svg" alt="">
                 </div>
                 <div class="col-md-6 section-description d-flex flex-wrap align-items-center justify-content-center">
-                    <p>Modern day companies trade-off between sustainability coming from its core business and expenditure on growth. But inclusion of these two legs is the need of every market leader. We help organization excel in this paradigm of growth and sustainability.</p>
-                    <p>We have expertise in providing services and building applications for small and medium scale enterprises in the data analytics and insights space focusing on domains of: <b>Manufacturing,	Oil and Gas, Marketing,	Sales, Supply Chain & Optimization</b>.</p>
+                    <p>Did you ever face a downtime in your equipment, and could not prevent it from happening? Have you incurred massive losses due to un-optimized scheduling? Are your product prices not in line with the market trends?</p>
+                    <p>If your business faces any or all of these, look no further than Convole.ai. With Advanced Analytics at its core, we leverage modern Data Science tools and technologies to drive innovation at scale. Our capabilities include but are not restricted to <b>Predictive Maintenance</b>, <b>Optimized Scheduling</b>, <b>Process Control</b>, <b>Demand Forecasting</b>, and so on. Reach out to know more.</p>
                 </div>
             </div>
             <div id="impact-we-have-made" class="row section-content">
@@ -180,26 +181,26 @@
                 </div>
                 <div class="col-md-6 section-description d-flex flex-wrap align-items-center justify-content-center">
                     
-                    <form class="container-fluid contact-form" onsubmit="sendQuery();">
+                    <form class="container-fluid contact-form" onsubmit="sendQuery(this);">
                         <div class="form-group">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="First Middle Last">
+                            <input type="text" class="form-control required" id="name" placeholder="First Middle Last">
                         </div>
                         <div class="form-group">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            <input type="email" class="form-control required" id="email" placeholder="name@example.com">
                         </div>
                         <div class="form-group">
                             <label for="phone" class="form-label">Phone</label>
-                            <input type="phone" class="form-control" id="phone" placeholder="+91 9999999999">
+                            <input type="phone" class="form-control required" id="phone" placeholder="+91 9999999999">
                         </div>
                         <div class="form-group">
                             <label for="preferredTime" class="form-label">Preferred time</label>
-                            <input type="time" class="form-control" id="preferredTime" rows="3"></input>
+                            <input type="time" class="form-control required" id="preferredTime" rows="3"></input>
                         </div>
                         <div class="form-group">
                             <label for="query" class="form-label">Query</label>
-                            <textarea class="form-control" id="query" rows="3"></textarea>
+                            <textarea class="form-control required" id="query" rows="3"></textarea>
                         </div>
                         <div class="col-md-12 d-flex align-items-center justify-content-center mt-4">
                             <button class="btn btn-outline-danger">Send</button>
