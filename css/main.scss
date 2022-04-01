@@ -55,6 +55,10 @@
     border-color: var(--theme-pink);
 }
 
+.modal-body{
+    text-align: justify;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 3px;
@@ -171,7 +175,7 @@ header {
                         color: var(--color-white1);
                     }
                     h1 {
-                        font-size: 3.5rem;
+                        font-size: 3rem;
                         font-weight: 600;
                         margin: 5px 0 20px;
                         word-spacing: 3px;
@@ -288,6 +292,7 @@ header {
 .slidein{
     animation: 1.5s cubic-bezier(0, 0.1, 0.12, 0.99) 0s 1 normal forwards running slide;
     -webkit-animation: 1.5s cubic-bezier(0, 0.1, 0.12, 0.99) 0s 1 normal forwards running slide;
+    text-align: justify;
 }
 @-webkit-keyframes slide {
     100% {
@@ -317,20 +322,25 @@ main{
     }
     .row h1{
         font-family: 'Recursive','Times New Roman', Times, serif;
-        font-size: 4rem;
+        font-size: 3rem;
         color: var(--color-dark2);
         margin-bottom: 5rem;
         transform: translateX(-10%);
         opacity: 0;
     }
     .section-description{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: var(--color-dark2);
 
         p{
             transform: translateX(-10%);
             opacity: 0;
         }
+    }
+    .section-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .section-image img{
         width: 100%;
